@@ -17,10 +17,10 @@ const roboto = Roboto({
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
-      <bod className={roboto.className}>
+      <body className={roboto.className}>
         <Navbar />
         {children}
-      </bod>
+      </body>
     </html>
   )
 }

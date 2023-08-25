@@ -1,8 +1,13 @@
+import  Users from '../components/Users'
+
 const page = () => {
+  // server componet
   return (
-    <div>
+    <section>
         <h1>Page</h1>
-    </div>
+        {/* client component */}
+        <Users />
+    </section>
   )
 }
 
